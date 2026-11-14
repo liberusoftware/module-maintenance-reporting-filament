@@ -29,7 +29,7 @@ class ReportingResource extends Resource
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
 
-    protected static string|\UnitEnum|null $navigationGroup = 'Insights';
+    protected static string|\UnitEnum|null $navigationGroup = 'Maintenance';
 
     public static function form(Schema $schema): Schema
     {
